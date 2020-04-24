@@ -1,0 +1,38 @@
+﻿@page "/"
+
+@using Demo.Data
+
+<h1>Select Ios </h1>
+<EditForm Model="@student" OnValidSubmit="Save">
+    <div class="row">
+        <div class="col">
+            <div class="form-group" dir="rtl">
+                <label>Date</label>
+               <InputDateIosBlazor.InputDateIos @bind-Value="student.BeginDate"/>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-group">
+                <input type="submit" class="btn btn-success" value="Save" />
+
+            </div>
+        </div>
+    </div>
+</EditForm>
+<p>Converted Date Is : @student.BeginDate.ToString("yyyy-MM-dd")</p>
+
+@code {
+    Student student = new Student
+    {
+        BeginDate = DateTime.Now
+    };
+
+
+
+
+
+    void Save()
+    {
+        
+    }
+}

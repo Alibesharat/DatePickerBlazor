@@ -1,0 +1,42 @@
+﻿
+
+
+
+/*#region InpuIos */
+
+.dropdown {
+    background: white;
+    border: none;
+    position: relative;
+    -webkit-appearance: none;
+    padding-right: 2%;
+    padding-left: 2%;
+    text-align: center !important;
+    display: inline-block !important;
+}
+
+    .dropdown:focus {
+        outline: none;
+        text-align: center !important;
+    }
+
+.plain-selector {
+    margin: 0 -3px;
+    text-align: center !important;
+}
+
+   
+
+  
+
+.out-selector {
+    position: relative;
+}
+
+
+
+.selection {
+    text-align: center;
+}
+
+/*#endregion */
