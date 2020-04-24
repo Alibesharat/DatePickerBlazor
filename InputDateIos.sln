@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InputDateIosBlazor", "InputDateIos\InputDateIosBlazor.csproj", "{A3C13808-99B8-490A-A53B-4E6AD6D3DF9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatePicker", "InputDateIos\DatePicker.csproj", "{A3C13808-99B8-490A-A53B-4E6AD6D3DF9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{6C2C37E7-1333-4254-8493-FED10D2862EF}"
 EndProject
